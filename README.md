@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://shafqatrasool11.github.io/time-tracking-dashboard-main/](https://shafqatrasool11.github.io/time-tracking-dashboard-main/)
+- Live Site URL: [Add live site URL here]
 
 ## My process
 
