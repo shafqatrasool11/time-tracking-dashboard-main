@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+
+<body>
+
+    <div class="flex">
+        <section class="container">
+            <article class="box main__box">
+                <div class="main__info">
+                    <div class="avatar">
+                        <img src="./images/image-jeremy.png">
+                    </div>
+                    <div class="person__data">
+                        <small>Report for</small>
+                        <h1>Jeremy Robson</h1>
+                    </div>
+                </div>
+                <div class="main__links">
+                    <a onclick="showArticles('day')" href="#">Daily</a>
+                    <a onclick="showArticles('week')" href="#">Weekly</a>
+                    <a onclick="showArticles('month')" href="#">Monthly</a>
+                </div>
+
+            </article>
+
+            <article class="box">
+                <div class="box__bg__icon">
+                    <img src="./images/icon-work.svg">
+                </div>
+                <div class="box__info">
+                    <div class="box__title">
+                        <h2>Work</h2>
+                        <a href="#"><img src="./images/icon-ellipsis.svg"></a>
+                    </div>
+                    <div class="day box__data">
+                        <h3>5hrs</h3>
+                        <h4>Yesterday - 7hrs</h4>
+                    </div>
+                    <div class="week box__data">
+                        <h3>32hrs</h3>
+                        <h4>Last week - 36hrs</h4>
+                    </div>
+                    <div class="month box__data">
+                        <h3>103hrs</h3>
+                        <h4>Last month - 128hrs</h4>
+                    </div>
+                </div>
+            </article>
+            <article class="box">
+                <div class="box__bg__icon">
+                    <img src="./images/icon-play.svg">
+                </div>
+                <div class="box__info">
+                    <div class="box__title">
+                        <h2>Play</h2>
+                        <a href="#"><img src="./images/icon-ellipsis.svg"></a>
+                    </div>
+                    <div class="day box__data">
+                        <h3>1hr</h3>
+                        <h4>Yesterday - 2hrs</h4>
+                    </div>
+                    <div class="week box__data">
+                        <h3>10hrs</h3>
+                        <h4>Last week - 8hrs</h4>
+                    </div>
+                    <div class="month box__data">
+                        <h3>23hrs</h3>
+                        <h4>Last month - 29hrs</h4>
+                    </div>
+                </div>
+            </article>
+            <article class="box">
+                <div class="box__bg__icon">
+                    <img src="./images/icon-study.svg">
+                </div>
+                <div class="box__info">
+                    <div class="box__title">
+                        <h2>Study</h2>
+                        <a href="#"><img src="./images/icon-ellipsis.svg"></a>
+                    </div>
+                    <div class="day box__data">
+                        <h3>0hrs</h3>
+                        <h4>Yesterday - 1hr</h4>
+                    </div>
+                    <div class="week box__data">
+                        <h3>4hrs</h3>
+                        <h4>Last week - 7hrs</h4>
+                    </div>
+                    <div class="month box__data">
+                        <h3>13hrs</h3>
+                        <h4>Last month - 19hrs</h4>
+                    </div>
+                </div>
+            </article>
+            <article class="box">
+                <div class="box__bg__icon">
+                    <img src="./images/icon-exercise.svg">
+                </div>
+                <div class="box__info">
+                    <div class="box__title">
+                        <h2>Exercise</h2>
+                        <a href="#"><img src="./images/icon-ellipsis.svg"></a>
+                    </div>
+                    <div class="day box__data">
+                        <h3>1hr</h3>
+                        <h4>Yesterday - 1hr</h4>
+                    </div>
+                    <div class="week box__data">
+                        <h3>4hrs</h3>
+                        <h4>Last week - 5hrs</h4>
+                    </div>
+                    <div class="month box__data">
+                        <h3>11hrs</h3>
+                        <h4>Last month - 18hrs</h4>
+                    </div>
+                </div>
+            </article>
+            <article class="box">
+                <div class="box__bg__icon">
+                    <img src="./images/icon-social.svg">
+                </div>
+                <div class="box__info">
+                    <div class="box__title">
+                        <h2>Social</h2>
+                        <a href="#"><img src="./images/icon-ellipsis.svg"></a>
+                    </div>
+                    <div class="day box__data">
+                        <h3>1hr</h3>
+                        <h4>Yesterday - 3hrs</h4>
+                    </div>
+                    <div class="week box__data">
+                        <h3>5hrs</h3>
+                        <h4>Last week - 10hrs</h4>
+                    </div>
+                    <div class="month box__data">
+                        <h3>21hrx</h3>
+                        <h4>Last month - 23hrs</h4>
+                    </div>
+                </div>
+            </article>
+            <article class="box">
+                <div class="box__bg__icon">
+                    <img src="./images/icon-self-care.svg">
+                </div>
+                <div class="box__info">
+                    <div class=" box__title">
+                        <h2>Self Care</h2>
+                        <a href="#"><img src="./images/icon-ellipsis.svg"></a>
+                    </div>
+                    <div class="day box__data">
+                        <h3>0hr</h3>
+                        <h4>Yesterday - 1hr</h4>
+                    </div>
+                    <div class="week box__data">
+                        <h3>2hrs</h3>
+                        <h4>Last week - 2hrs</h4>
+                    </div>
+                    <div class="month box__data">
+                        <h3>7hrs</h3>
+                        <h4>Last month - 11hrs</h4>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/shafqatrasool11">Shafqat Rasool</a>.
+      </div>
+    <script>
+        function showArticles(classToShow) {
+            const allArticles = document.querySelectorAll('.box__data');
+
+            allArticles.forEach((article) => {
+                if (article.classList.contains(classToShow)) {
+                    article.style.display = 'flex';
+                } else {
+                    article.style.display = 'none';
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
